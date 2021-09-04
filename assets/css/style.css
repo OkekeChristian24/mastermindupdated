@@ -1,0 +1,173 @@
+.roadmap-mobile{
+  display: none;
+}
+
+.roadmap-desktop{
+  display: inline;
+}
+
+.product-item i img{
+  width: 100px;
+  height: 100px;
+}
+
+.tab-content .accordion .accordion-item{
+  border-radius: 14px;
+  margin: 8px 0;
+}
+.mmd-products{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+    margin-bottom: 22px;
+}
+
+.mmd-title{
+    display: inline-block;
+    background-color: #46bdf4;
+    color: #04062e;
+    border-radius: 10px;
+    padding: 0 9px;
+}
+
+#mmd-logo-link{
+    display: inline-block;
+    border-radius: 10px;
+    /* background-color: #fdfdfd; */
+    padding: 5px 20px;
+    /* width: 400px; */
+    display: flex;
+    line-height: 1.7;
+    color: #f4f4f4;
+}
+
+#mmd-logo-link img{
+    margin-right: 5px;
+}
+
+.small-text{
+    font-size: 1rem;
+    display: inline-block;
+    font-weight: 100;
+}
+
+.front-btns{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.video-link{
+  margin-top: 20px;
+}
+
+.wp-land-link{
+  background-color: #04062e;
+  background-image: linear-gradient(#04062e, #46bdf4);
+
+  color: #ffffff;
+  height: calc(100% - 48px);
+  border-radius: 48px;
+  padding: 12px 24px;
+  margin-right: 10px;
+  border: 2px solid #46bdf4;
+}
+
+.lead i{
+  text-shadow: 2px 2px 2px black;
+}
+
+.contact-img{
+  width: 334px;
+  height: auto;
+}
+
+
+
+@media (max-width: 991px){
+  .front-btns{
+    justify-content: center;
+  }
+
+  #front-img{
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px){
+  .wp-land-link{
+    padding: 7px 9px;
+  }
+
+  .front-btns{
+    flex-direction: row;
+    margin-top: 15px;
+  }
+  .products-bg-grad{
+    background: #0C0E24;
+    background-image: linear-gradient(#04062e, #46bdf4);
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .roadmap-mobile{
+    display: inline;
+  }
+
+  .roadmap-desktop{
+    display: none;
+  }
+
+  
+
+
+
+}
+/* Toast Styling */
+.mytoast {
+    position: fixed;
+    top: 0;
+    left: 8px;
+    right: 8px;
+    margin: auto;
+    z-index: 10000;
+  
+    max-width: 400px;
+    padding: 6px;
+    height: 80px;
+    line-height: 2.0;
+    font-size: 2rem;
+    background: #cccccc;
+    color: #08091b;
+    font-family: sans-serif;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, top 0.2s, visibility 0.2s;
+  }
+  
+  .mytoast--visible {
+    top: 40px;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .mytoast--success {
+    background: #00c02b;
+    border-color: #009d23;
+    color: #ffffff;
+  }
+  
+  .mytoast--error {
+    background: #d50000;
+    border-color: #ba0000;
+    color: #ffffff;
+  }
+
+
+  
