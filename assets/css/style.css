@@ -114,6 +114,7 @@
   grid-row: span 1 / span 1;
   color: #000000;
   font-size: 1.125rem;
+  font-weight: 300;
 }
 
 .num-text h2, .num-text h3{
@@ -127,6 +128,19 @@
   color: rgba(242, 242, 242, 1);
 }
 
+.distr-container{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.piechart img{
+  width: 370px;
+  height: 320px;
+}
+
+.tri-chart img{
+  height: 300px;
+}
 .num-text h3{
   margin-top: -2rem;
   /* line-height: 2.3rem; */
@@ -148,6 +162,16 @@
   }
 }
 
+@media (max-width: 991px) and (min-width:767px){
+  .custom-container{
+    width: 990px !important;
+  }
+
+  .distr-container{
+    width: 100%;
+  }
+}
+
 @media (max-width: 768px){
   .wp-land-link{
     padding: 7px 9px;
@@ -157,13 +181,7 @@
     flex-direction: row;
     margin-top: 15px;
   }
-  .products-bg-grad{
-    background: #0C0E24;
-    background-image: linear-gradient(#04062e, #46bdf4);
-    border-radius: 12px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
-
+  
   .roadmap-mobile{
     display: inline;
   }
@@ -172,11 +190,57 @@
     display: none;
   }
 
-  
+  .key-notes-container{
+    width: 85%;
+    margin: 0 auto;
+  }
+  .grid-col-2 p{
+    grid-column: span 2/span 2;
+  }
 
+  .grid-col-2{
+    margin-bottom: 50px;
+  }
+
+  .grid-col-2 img{
+    width: 200px;
+  }
+
+  .num-text h2{
+
+  }
+
+  .num-text h3{
+    font-size: 1.6rem;
+    
+  }
 
 
 }
+
+@media (max-width: 767px){
+  .products-bg-grad{
+    background: #0C0E24;
+    background-image: linear-gradient(#04062e, #46bdf4) !important;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+}
+
+@media (max-width: 480px){
+  .grid-col-2 p{
+    font-weight: 400;
+  }
+
+  .num-text h3{
+    margin-top: -2.5rem;
+  }
+  
+}
+
+
+
 /* Toast Styling */
 .mytoast {
     position: fixed;

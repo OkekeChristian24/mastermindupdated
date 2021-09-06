@@ -7004,6 +7004,9 @@ ul.progress-info { display: flex; justify-content: space-between; }
     font-size: 14px !important;
   }
 
+}
+
+@media (max-width: 768px) {
   #products-img{
     text-align: center;
     display: none;
