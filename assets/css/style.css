@@ -30,6 +30,24 @@
     padding: 0 9px;
 }
 
+.products-bg-grad{
+  margin-bottom: 17px;
+  background: #0C0E24;
+  background-image: linear-gradient(#04062e, #46bdf4) !important;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.products-bg-grad h4{
+  text-align: center;
+  padding: 10px 6px;
+  
+}
+
+.text-skayline h4{
+  display: block !important;
+}
+
 #mmd-logo-link{
     display: inline-block;
     border-radius: 10px;
@@ -140,6 +158,7 @@
 
 .tri-chart img{
   height: 300px;
+  width: 475px !important;
 }
 .num-text h3{
   margin-top: -2rem;
@@ -148,9 +167,21 @@
   color: #0C0E24;
 }
 
+.text-skayline h4{
+  display: none;
+}
+
 .contact-text, .contact-icon{
   color: #0C0E24;
 }
+
+@media (max-width: 1200px){
+  #products-img img{
+    max-width: 900px;
+    width: 100%;
+  }
+}
+
 
 @media (max-width: 991px){
   .front-btns{
@@ -181,6 +212,7 @@
     flex-direction: row;
     margin-top: 15px;
   }
+
   
   .roadmap-mobile{
     display: inline;
@@ -206,9 +238,6 @@
     width: 200px;
   }
 
-  .num-text h2{
-
-  }
 
   .num-text h3{
     font-size: 1.6rem;
@@ -219,14 +248,30 @@
 }
 
 @media (max-width: 767px){
-  .products-bg-grad{
-    background: #0C0E24;
-    background-image: linear-gradient(#04062e, #46bdf4) !important;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+
+  .piechart img{
+    width: 370px;
+    height: auto;
   }
 
+  .tri-chart img{
+    width: 370px;
+    height: auto;
+  }
+  
+  
+
+  #products-img img{
+    text-align: center;
+    display: none;
+  }
+  
+  
+  
+
 }
+
 
 @media (max-width: 480px){
   .grid-col-2 p{

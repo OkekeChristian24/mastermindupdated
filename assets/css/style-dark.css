@@ -6951,12 +6951,6 @@ ul.progress-info { display: flex; justify-content: space-between; }
   /* border-radius: 12px; */
 }
 
-@media (max-width: 1200px){
-  #products-img img{
-    max-width: 900px;
-    width: 100%;
-  }
-}
 
 
 
@@ -7006,11 +7000,8 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 }
 
-@media (max-width: 768px) {
-  #products-img{
-    text-align: center;
-    display: none;
-  }
+@media (max-width: 767px) {
+  
 }
 
 
