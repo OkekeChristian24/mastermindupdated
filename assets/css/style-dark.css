@@ -5752,9 +5752,9 @@ ul.progress-info { display: flex; justify-content: space-between; }
 /** 04.12 Contact */
 .contact-wrap { padding: 20px; }
 
-.contact-list { margin-top: -7.5px; margin-bottom: -7.5px; position: relative; z-index: 2; }
+.contact-list { margin-top: -7.5px; margin-bottom: -7.5px; position: relative; z-index: 2;}
 
-.contact-list li { display: flex; padding-top: 7.5px; padding-bottom: 7.5px; font-size: 0.94rem; }
+.contact-list li { display: flex; padding-top: 7.5px; padding-bottom: 7.5px; font-size: 0.94rem;}
 
 .contact-list-s1 { display: flex; justify-content: center; }
 

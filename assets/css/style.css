@@ -249,9 +249,11 @@
 
 @media (max-width: 767px){
   
-
+  .piechart{
+    text-align: center;
+  }
   .piechart img{
-    width: 370px;
+    width: 170px;
     height: auto;
   }
 
@@ -280,6 +282,19 @@
 
   .num-text h3{
     margin-top: -2.5rem;
+  }
+
+  .header-logo{
+    width: 200px;
+  }
+
+  .wp-land-link{
+    margin-bottom: 5px;
+  }
+
+  .tri-chart img{
+    height: 120px;
+    width: 375px !important;
   }
   
 }
