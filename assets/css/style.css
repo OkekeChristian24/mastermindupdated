@@ -175,12 +175,12 @@
   color: #0C0E24;
 }
 
-@media (max-width: 1200px){
+/* @media (max-width: 1200px){
   #products-img img{
     max-width: 900px;
     width: 100%;
   }
-}
+} */
 
 
 @media (max-width: 991px){
@@ -244,6 +244,7 @@
     
   }
 
+  
 
 }
 
@@ -261,18 +262,14 @@
     width: 370px;
     height: auto;
   }
-  
-  
 
   #products-img img{
-    text-align: center;
-    display: none;
+    display: none !important;
   }
-  
-  
-  
+
 
 }
+
 
 
 @media (max-width: 480px){
