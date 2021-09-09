@@ -191,6 +191,13 @@
   height: auto;
   box-shadow: 15px 15px 25px #0C0E24;
   border-radius: 22px;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+#front-img img.gif-img{
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
 }
 
 
