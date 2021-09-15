@@ -653,7 +653,7 @@ h6, .h6, .fz-6 { font-size: 0.94rem; }
 
 .bg-rblend-light-alt { background-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, #dfeaf9); }
 
-.theme-dark { background: #9240c9 !important; }
+.theme-dark { background: #050709 !important; }
 
 .text-primary { color: #0b0c22 !important; }
 
@@ -5810,7 +5810,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .subscribe-wrap { padding: 65px; } }
 
 @media (min-width: 768px) { .contact-list-s1 li { width: 33.33%; flex-wrap: wrap; }
-  .contact-list-s1 .contact-text { width: auto; }
+  .contact-list-s1 .contact-text { width: 100%; }
   .contact-list-s1 .contact-icon { margin-right: 15px; } }
 
 @media (max-width: 480px) { .contact-list-s2 { flex-wrap: wrap; } }
@@ -6733,10 +6733,10 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .has-sub > a:after { right: 8px; }
   .menu-sub .has-sub > a { padding-right: 35px; }
   .menu-sub .has-sub > a:after { transform: translateY(-50%) rotate(-90deg); right: 15px; }
-  > .has-sub.menu-item:last-child .menu-sub:not(.menu-mega) .menu-item > a { padding-right: 20px !important; padding-left: 35px; }
-  > .has-sub.menu-item:last-child .menu-sub:not(.menu-mega) .menu-item > a:after { transform: translateY(-50%) rotate(90deg); left: 15px; right: auto; }
-  > .has-sub.menu-item:last-child .menu-mega { left: auto; right: 0; transform: translateX(0) translateY(-8px); }
-  > .has-sub.menu-item:last-child:hover .menu-mega { transform: translateX(0) translateY(0); }
+   .has-sub.menu-item:last-child .menu-sub:not(.menu-mega) .menu-item > a { padding-right: 20px !important; padding-left: 35px; }
+   .has-sub.menu-item:last-child .menu-sub:not(.menu-mega) .menu-item > a:after { transform: translateY(-50%) rotate(90deg); left: 15px; right: auto; }
+   .has-sub.menu-item:last-child .menu-mega { left: auto; right: 0; transform: translateX(0) translateY(-8px); }
+   .has-sub.menu-item:last-child:hover .menu-mega { transform: translateX(0) translateY(0); }
   .is-transparent:not(.has-fixed):not(.is-light) .menu > .menu-item > a { color: #fff; }
   .is-transparent:not(.has-fixed):not(.is-light) .menu > .menu-item:hover > a { color: #46bdf4; }
   .secondary-navbar { padding: 0; display: block; }
