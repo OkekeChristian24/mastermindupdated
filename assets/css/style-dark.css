@@ -79,6 +79,13 @@ html, body { font-family: "Ubuntu", sans-serif; color: #28384c; font-size: 14px;
   color: #333333;
 }
 
+.header-banner{
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
 
 /*  */
 
